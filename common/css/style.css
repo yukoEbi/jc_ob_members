@@ -1,0 +1,73 @@
+/* ---------------------------------------
+	CSS
+-----------------------------------------*/
+.header {
+  background-color: #fff;
+}
+.header__title {
+  color: #3493c6;
+  text-align: center;
+}
+
+.footer {
+  background-color: #3493c6;
+  color: #fff;
+}
+
+.btn_login {
+  background-color: #3493c6;
+  border-color: #3493c6;
+  color: #fff;
+}
+.btn_login:hover {
+  background-color: #fff;
+  color: #3493c6;
+}
+
+.btn_line {
+  background-color: #00B900;
+  border-color: #00B900;
+  color: #fff;
+}
+.btn_line:hover {
+  background-color: #fff;
+  color: #00B900;
+}
+
+.btn_fb {
+  background-color: #3b5998;
+  border-color: #3b5998;
+  color: #fff;
+}
+.btn_fb:hover {
+  background-color: #fff;
+  color: #3b5998;
+}
+
+.nav {
+  width: 100%;
+  flex-wrap: nowrap;
+  overflow-x: scroll;
+}
+.nav .nav-item:not(:last-of-type) {
+  margin-right: 2px;
+}
+.nav .nav-item a {
+  background-color: #ccc;
+  color: #fff;
+}
+.nav .nav-item a.active {
+  background-color: #3493c6;
+  border-color: #3493c6;
+  color: #fff;
+}
+
+.tab_panel {
+  display: none;
+}
+.tab_panel.active {
+  display: block;
+  height: calc(100vh - 220px);
+  overflow-y: scroll;
+}
+/*# sourceMappingURL=style.css.map */
